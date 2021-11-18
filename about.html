@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Badr World of Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/cec66b247e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <p style="font-size: larger;">World of Art</p>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">ARTWORK</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+</section>
+
+<!---- about us content ----->
+
+<section class="about-us">
+
+    <div class="row">
+        <div class="about-col">
+            <h1>I am an artist experiencing the field of imagnitive cubism</h1>
+            <p>In my field of work I am aiming to inspire and motivate myself to increase my abilities 
+                in expressing my love of art through cubism, by relating them to the aspects of life such as, 
+                the future world, the heritage of the UAE, and lastly the modern world. 
+                I also hope to inspire upcoming emirati artists to take an interest in cubism
+                and to see that there's more than one point of view towards art. </p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/kandora.jpg">
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!-----Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Contemporary Emirati Artist - Self - taught, 
+    merges symbols from Arab folk heritage with facets of our modern lifestyle,<br>
+    my unique interpretation of cubism brings together vibrant fragments 
+    to capture multiple perspectives in a single artwork.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Badr Abbas</p>
+
+</section>
+
+
+
+
+
+
+
+<!------Javascript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

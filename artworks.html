@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Badr World of Art</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/cec66b247e.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <p style="font-size: larger;">World of Art</p>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">ARTWORK</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>My Artworks</h1>
+</section>
+
+<!----- My Artworks------>
+
+<section class="artwork">
+    <h1> My Style of Art</h1>
+    <p>Modernart, contrmporaryart, cubist, surreal and abstract.</p>
+
+    <div class="row">
+        <div class="artwork-col">
+            <h3>Traditional</h3>
+            <p>When drawing I love to dedicate my work with my country, because it seperates my point of view from others in a unique way. </p>
+
+        </div>
+        <div class="artwork-col">
+            <h3>Futuristic</h3>
+            <p>The future has always surprised me, throughout the years it helped me combine the modern world with the future. </p>
+        </div>
+        <div class="artwork-col">
+            <h3>Hobby</h3>
+            <p>Throughout my childhood I loved playing outside, it gave me a sense of life and made me interpret the importance of enjoying something you love. </p>
+        </div>
+    </div>
+
+</section>
+
+<!------Art Pieces------>
+<section class="artpieces">
+    <h1>Art Pieces</h1>
+    <p>Dedicated to a mixture of different elements of life.</p>
+
+    <div class="row">
+        <div class="artpieces-col">
+            <img src="images/sushi.jpg">
+            <h3>Chopstick Couture</h3>
+            <p>This drawing is based on the culture of chopsticks and
+                 how a person can relate it to their own style of drawing.</p>
+        </div>
+        <div class="artpieces-col">
+            <img src="images/water.jpg">
+            <h3>Plastic</h3>
+            <p>The drawing was a great initiative to raise awarness on the dangers of plastic on our environment.</p>
+        </div>
+        <div class="artpieces-col">
+            <img src="images/plane.jpg">
+            <h3>Aviation</h3>
+            <p>This artpiece was dedicated to my line of work in Emirates Airlines and helped me provide a new destination to the way of expressing art.</p>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<!-----Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Contemporary Emirati Artist - Self - taught, 
+    merges symbols from Arab folk heritage with facets of our modern lifestyle,<br>
+    my unique interpretation of cubism brings together vibrant fragments 
+    to capture multiple perspectives in a single artwork.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Badr Abbas</p>
+
+</section>
+
+
+
+
+
+
+
+<!------Javascript for Toggle Menu------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
